@@ -40,7 +40,7 @@ public class MarkdownParseTest {
         assertEquals(expectedLinks, listOfLinks);
     }
 
-    @Test
+    /**@Test
     public void testTest3File() throws IOException{
         String fileName = Files.readString(Path.of("/Users/steve/Documents/School Work/Spring 22/CSE 15L/Lab 3/Lab-3-4/test-file3.md"));
 
@@ -50,9 +50,9 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
 
         assertEquals(expectedLinks, listOfLinks);
-    }
+    }**/
 
-    @Test
+    /**@Test
     public void testTest4File() throws IOException{
         String fileName = Files.readString(Path.of("/Users/steve/Documents/School Work/Spring 22/CSE 15L/Lab 3/Lab-3-4/test-file4.md"));
 
@@ -62,9 +62,9 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
 
         assertEquals(expectedLinks, listOfLinks);
-    }
+    }**/
 
-    @Test
+    /**@Test
     public void testTest5File() throws IOException{
         String fileName = Files.readString(Path.of("/Users/steve/Documents/School Work/Spring 22/CSE 15L/Lab 3/Lab-3-4/test-file5.md"));
 
@@ -74,7 +74,7 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
 
         assertEquals(expectedLinks, listOfLinks);
-    }
+    }**/
 
     @Test
     public void testTest6File() throws IOException{
@@ -88,7 +88,7 @@ public class MarkdownParseTest {
         assertEquals(expectedLinks, listOfLinks);
     }
 
-    @Test
+    /**@Test
     public void testTest7File() throws IOException{
         String fileName = Files.readString(Path.of("/Users/steve/Documents/School Work/Spring 22/CSE 15L/Lab 3/Lab-3-4/test-file7.md"));
 
@@ -98,7 +98,7 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
 
         assertEquals(expectedLinks, listOfLinks);
-    }
+    }**/
 
     @Test
     public void testTest8File() throws IOException{
