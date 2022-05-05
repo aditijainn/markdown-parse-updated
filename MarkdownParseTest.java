@@ -24,7 +24,7 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
 
         assertEquals(expectedLinks, listOfLinks);
-    }
+    }**/
 
     @Test
     public void testTest2File() throws IOException{
@@ -38,6 +38,7 @@ public class MarkdownParseTest {
         expectedLinks.add("some-page.html");
 
         assertEquals(expectedLinks, listOfLinks);
+    
     }
 
     @Test
@@ -102,7 +103,7 @@ public class MarkdownParseTest {
 
     @Test
     public void testTest8File() throws IOException{
-        String fileName = Files.readString(Path.of("/Users/steve/Documents/School Work/Spring 22/CSE 15L/Lab 3/Lab-3-4/test-file8.md"));
+        String fileName = Files.readString(Path.of("test-file8.md"));
 
         ArrayList<String> listOfLinks = new ArrayList<>();
         listOfLinks = MarkdownParse.getLinks(fileName);
@@ -110,6 +111,6 @@ public class MarkdownParseTest {
         ArrayList<String> expectedLinks = new ArrayList<String>();
 
         assertEquals(expectedLinks, listOfLinks);
-    }**/
+    }
 }
 
